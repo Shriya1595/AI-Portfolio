@@ -1,6 +1,5 @@
 # AI-Portfolio
 A portfolio of AI evaluation, prompt engineering, LLM analysis, datasets, and quality assurance projects.
-# AI Portfolio
 
 Hello! I'm Shriya Sharma, an AI evaluator, researcher, and writer with a background in English Literature.
 
