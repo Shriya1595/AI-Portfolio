@@ -3,7 +3,7 @@ A portfolio of AI evaluation, prompt engineering, LLM analysis, datasets, and qu
 
 Hello! I'm Shriya Sharma, an AI evaluator, researcher, and writer with a background in English Literature.
 
-I have experience training and evaluating AI systems, reviewing model outputs, maintaining quality standards, and mentoring team members. Through this portfolio, I am documenting projects that demonstrate skills in prompt engineering, LLM evaluation, benchmarking, dataset creation, and AI quality analysis.
+I have professional experience evaluating large language model (LLM) outputs, maintaining quality standards, reviewing annotation quality, and mentoring AI trainers. This portfolio documents practical projects in prompt engineering, AI evaluation, benchmarking, dataset creation, and quality analysis.
 
 ## Portfolio Goals
 
