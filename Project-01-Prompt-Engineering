@@ -417,15 +417,15 @@ The important point is that this is **not presented as proof** that we live in a
 
 ### Evaluation
 
-Accuracy: The explanation is scientifically accurate. 
+Accuracy: The explanation is scientifically accurate. There is some confusion with notation, which varies in different prints, but the model uses one that is different from the passage provided for it: Pf vs Fp 
 
 Completeness: The explanation is complete with an example
 
-Clarity: The explanation was clear and easy to understand, though a bit lengthy
+Clarity: The explanation was clear and easy to understand, though a bit lengthy. 
 
-Structure: The explanation is choppy, with several sections that don't flow together. 
+Structure: The explanation is choppy; several sections don't flow together. 
 
-Weaknesses: The explanation is a bit long, and there's confusion about the variable (pf ot Fp), though it is used correctly. The structure lacks clarity as it feels like sections of disconnected texts rather than a cohesive summary. 
+Weaknesses: The explanation is a bit long, and there's confusion about the variable (pf ot Fp), though it is used correctly. The structure lacks clarity as it feels like sections of disconnected text rather than a cohesive summary. 
 
 ---
 
@@ -544,11 +544,13 @@ The structure was better for a summary, and it appeared closer to what a summary
 
 - Lesson 3: Always equip the user query with tone and formatting instructions for desirable results. 
 
+- Lesson 4: AI outputs should be validated against the original source, especially for equations, notation, and technical symbols. Prompting can reduce errors but cannot replace careful verification.
+
 ## Reflection
 
 What surprised me?
 Even if you ask for a summary, the model does not assume it should be brief and have a paragraph-like structure that works well together; you have to define it. 
 
 What would I test next?
-
+I want to look at how we can make sure the models are fact-checking information. It looks like the user still needs to fact-check, as models do tend to make mistakes
 How could this evaluation be improved?
