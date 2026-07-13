@@ -527,7 +527,7 @@ One striking aspect of this passage is that it is **not primarily about computer
 
 Today, humans use similar reasoning in everyday life. Whether estimating the likelihood of an event, interpreting survey results, or judging risks, we often rely on probabilities rather than certainty. The simulation argument is an unusual example of applying that same kind of statistical thinking to one of the biggest questions imaginable: **What kind of reality are we most likely to be experiencing?**
 
-## Prompt Improvements 
+## Prompt Modifications 
 
 Specified the target audience (non-science readers)
 Added a maximum word count
@@ -542,7 +542,7 @@ Which prompt performed better?
 Out of the two, the second prompt performed better
 
 Why?
-The structure was better for a summary, and it appeared closer to what a summary should be and less like an AI-generated response. Adding a word limit ensured the response was precise and to the point. For summaries, a personal insight ensures a fresh perspective, and its application to clear life, grounding the summary.  
+The structure was better for a summary, and it appeared closer to what a summary should be and less like an AI-generated response. Adding a word limit ensured the response was precise and to the point. For summaries, a personal insight ensures a fresh perspective, and its application to real life grounds the summary.  
 
 Prompt Change	Effect
 Added audience ("non-science background": ):	Simpler language
