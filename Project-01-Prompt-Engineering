@@ -1,0 +1,554 @@
+# Project 1: Improving AI Summarization Through Prompt Engineering
+
+## Objective
+
+Evaluate how prompt design affects the quality of AI-generated summaries.
+
+---
+
+## Problem Statement
+
+Many users ask AI models to summarize long articles.
+
+The quality of these summaries depends heavily on prompt design.
+
+This project investigates how different prompts influence summary quality.
+
+---
+
+## Model Used
+
+Model: Chatgpt
+
+Date:7/13/2026
+
+---
+
+## Prompt 1
+
+### Prompt
+
+This is a passage from the paper "Are you living in a simulation?" 
+
+"IV. THE CORE OF THE SIMULATION ARGUMENT
+
+The basic idea of this paper can be expressed roughly as follows: If there were a
+
+substantial chance that our civilization will ever get to the posthuman stage and
+
+run many ancestor‐simulations, then how come you are not living in such a
+
+simulation?
+
+We shall develop this idea into a rigorous argument. Let us introduce the
+
+following notation:
+
+Pf : Fraction of all human‐level technological civilizations that survive to
+
+reach a posthuman stage
+
+N : Average number of ancestor‐simulations run by a posthuman
+
+civilization
+
+H : Average number of individuals that have lived in a civilization before
+
+it reaches a posthuman stage
+
+
+
+( 100 billion humans 50 years/human  30 million secs/year [1014, 1017] operations in each 
+
+human brain per second  [1033, 1036] operations.  )
+
+The actual fraction of all observers with human‐type experiences that live in
+
+simulations is then
+
+f N H H
+
+f N H f
+
+P
+
+P
+
+sim   ( )   
+
+Writing I f for the fraction of posthuman civilizations that are interested in
+
+running ancestor‐simulations (or that contain at least some individuals who are
+
+interested in that and have sufficient resources to run a significant number of
+
+such simulations), and NI for the average number of ancestor‐simulations run
+
+by such interested civilizations, we have
+
+I NI N  f
+
+and thus:
+
+( ) 1 
+
+P I I
+
+P I I
+
+sim f f N
+
+f f N f         (*)
+
+Because of the immense computing power of posthuman civilizations, NI is
+
+extremely large, as we saw in the previous section. By inspecting (*) we can then
+
+see that at least one of the following three propositions must be true:
+
+(1)  0 Pf
+
+(2)  0 I f
+
+(3) fsim 1 "
+
+
+
+Give me a summary of this passage in simple, understandable language. Explain the core argument and use an example to clarify it. 
+
+### Output
+
+This passage is the mathematical heart of philosopher Nick Bostrom's Simulation Argument. The equations can make it look intimidating, but the idea itself is surprisingly simple.
+
+## The core question
+
+Bostrom asks:
+
+> **If future civilizations become powerful enough to simulate billions of realistic human lives, why should you assume that you're one of the original humans instead of one of the simulated ones?**
+
+He doesn't claim we *are* living in a simulation. Instead, he argues that if certain assumptions are true, then statistically it becomes very likely.
+
+---
+
+## The three variables
+
+He introduces three important numbers.
+
+### 1. Pf
+
+This is the **fraction of civilizations that survive long enough to become extremely advanced ("posthuman").**
+
+Imagine 1,000 civilizations emerge across the universe.
+
+* If only 2 survive long enough to become incredibly advanced,
+
+  * **Pf = 2/1000 = 0.002**
+* If 800 survive,
+
+  * **Pf = 0.8**
+
+So this measures **how many civilizations avoid destroying themselves.**
+
+---
+
+### 2. H
+
+This is the **average number of real humans that exist before a civilization reaches the posthuman stage.**
+
+Suppose humanity produces
+
+* 100 billion real people
+
+before becoming advanced enough to simulate minds.
+
+Then
+
+**H = 100 billion.**
+
+---
+
+### 3. N
+
+This is the **number of ancestor simulations each posthuman civilization runs.**
+
+An ancestor simulation means:
+
+> A future civilization creates a simulation of its own history containing conscious people who believe they are living in the 21st century.
+
+If one civilization runs
+
+* 1 million simulations,
+
+then
+
+**N = 1,000,000.**
+
+---
+
+## What is he calculating?
+
+He's calculating
+
+> **What fraction of all people with experiences like ours are simulated rather than biological?**
+
+Suppose there are
+
+### Real humans
+
+100 billion
+
+Now imagine
+
+100 future civilizations
+
+Each runs
+
+1 million simulations
+
+Each simulation contains
+
+100 billion people.
+
+Now we have
+
+Real humans
+
+100 billion
+
+Simulated humans
+
+100 × 1,000,000 × 100 billion
+
+= **10 quadrillion billion simulated people.**
+
+Now ask:
+
+If you randomly picked one conscious person,
+
+would they probably be real?
+
+No.
+
+Almost everyone would be simulated.
+
+---
+
+## The equation
+
+The complicated equation simply computes
+
+> simulated observers
+>
+> divided by
+>
+> all observers
+
+or
+
+> Simulated people
+>
+> ---
+>
+> Real people + Simulated people
+
+That's all it's is doing mathematically.
+
+---
+
+## Why introduce "fI"?
+
+Not every advanced civilization would necessarily want to run simulations.
+
+Some might decide
+
+* it's unethical,
+* too expensive,
+* boring,
+* illegal.
+
+So Bostrom adds another variable.
+
+**fI**
+
+means
+
+> **What fraction of posthuman civilizations are actually interested in running ancestor simulations?**
+
+Example
+
+Suppose
+
+100 civilizations become posthuman.
+
+Only 20 decide to simulate history.
+
+Then
+
+**fI = 20%.**
+
+---
+
+## Putting everything together
+
+The probability that you're simulated depends on three things.
+
+### 1. Do civilizations survive?
+
+If almost every civilization destroys itself,
+
+then almost nobody reaches the stage where simulations become possible.
+
+---
+
+### 2. Do advanced civilizations actually run simulations?
+
+Maybe they can—
+
+but choose not to.
+
+---
+
+### 3. If they do, how many do they run?
+
+Maybe
+
+one simulation.
+
+Or
+
+ten million.
+
+The more simulations,
+
+the more simulated people exist.
+
+---
+
+## The crucial observation
+
+Bostrom says future computers would be unimaginably powerful.
+
+So if civilizations survive,
+
+and
+
+if they choose to run simulations,
+
+they could create **enormous numbers** of simulated humans.
+
+That means simulated humans would vastly outnumber original humans.
+
+---
+
+## The three possibilities
+
+This leads to his famous conclusion.
+
+At least **one** of these must be true.
+
+### (1) Almost no civilizations survive.
+
+Humanity—or nearly every intelligent civilization—goes extinct before becoming posthuman.
+
+Maybe through
+
+* nuclear war,
+* climate catastrophe,
+* engineered pandemics,
+* AI,
+* asteroid impacts,
+* or something else.
+
+---
+
+### (2) Advanced civilizations almost never run ancestor simulations.
+
+Maybe they consider it immoral.
+
+Maybe nobody is interested.
+
+Maybe laws forbid it.
+
+Maybe they have better things to do.
+
+---
+
+### (3) We are almost certainly living in a simulation.
+
+If civilizations survive,
+
+and
+
+they run huge numbers of simulations,
+
+then simulated people vastly outnumber original people.
+
+Statistically,
+
+you should expect to be simulated.
+
+---
+
+## A simple analogy
+
+Imagine there are only **100 original students** in a school.
+
+Years later, the school creates **10,000 virtual reality copies** of every student.
+
+Now there are
+
+* 100 original students
+* 1,000,000 virtual students
+
+If someone wakes up inside this world and asks,
+
+> "Am I probably one of the originals?"
+
+the statistical answer is:
+
+**Probably not.**
+
+Because **99.99% of all students are virtual copies.**
+
+Bostrom applies the same reasoning to conscious observers. If future civilizations create vast numbers of realistic ancestor simulations, then the overwhelming majority of beings having experiences like ours would exist inside those simulations. Therefore, unless civilizations almost always go extinct or almost never choose to run such simulations, it becomes statistically more likely that *we* are among the simulated observers rather than the original biological ones.
+
+The important point is that this is **not presented as proof** that we live in a simulation. It is a probabilistic argument based on assumptions about the future. Bostrom's claim is that **at least one** of the three conclusions must hold: civilizations rarely survive to become posthuman, posthuman civilizations rarely run ancestor simulations, or we are very likely living in one.
+
+
+### Evaluation
+
+Accuracy: The explanation is scientifically accurate. 
+
+Completeness: The explanation is complete with an example
+
+Clarity: The explanation was clear and easy to understand, though a bit lengthy
+
+Structure: The explanation is choppy, with several sections that don't flow together. 
+
+Weaknesses: The explanation is a bit long, and there's confusion about the variable (pf ot Fp), though it is used correctly. The structure lacks clarity as it feels like sections of disconnected texts rather than a cohesive summary. 
+
+---
+
+## Prompt 2
+
+This is a passage from the paper "Are you living in a simulation?" 
+"IV. THE CORE OF THE SIMULATION ARGUMENT
+The basic idea of this paper can be expressed roughly as follows: If there were a
+substantial chance that our civilization will ever get to the posthuman stage and
+run many ancestor‐simulations, then how come you are not living in such a
+simulation?
+We shall develop this idea into a rigorous argument. Let us introduce the
+following notation:
+Pf : Fraction of all human‐level technological civilizations that survive to
+reach a posthuman stage
+N : Average number of ancestor‐simulations run by a posthuman
+civilization
+H : Average number of individuals that have lived in a civilization before
+it reaches a posthuman stage
+
+( 100 billion humans 50 years/human  30 million secs/year [1014, 1017] operations in each 
+human brain per second  [1033, 1036] operations.  )
+The actual fraction of all observers with human‐type experiences that live in
+simulations is then
+f N H H
+f N H f
+P
+P
+sim   ( )   
+Writing I f for the fraction of posthuman civilizations that are interested in
+running ancestor‐simulations (or that contain at least some individuals who are
+interested in that and have sufficient resources to run a significant number of
+such simulations), and NI for the average number of ancestor‐simulations run
+by such interested civilizations, we have
+I NI N  f
+and thus:
+( ) 1 
+P I I
+P I I
+sim f f N
+f f N f         (*)
+Because of the immense computing power of posthuman civilizations, NI is
+extremely large, as we saw in the previous section. By inspecting (*) we can then
+see that at least one of the following three propositions must be true:
+(1)  0 Pf
+(2)  0 I f
+(3) fsim 1 "
+
+
+Summarize the passage for someone with a non-science background in simple language. Ensure that all claims and information shared are scientifically sound and that no new information is invented. Use a simple example to explain the core argument.  Ensure that the entire explanation is done within 500 words (not counting the mathematical formulas). Keep the tone approachable and friendly. Include an interesting insight about this passage and how it applies to humans presently. 
+
+### Output
+### Simple Summary of the Core Simulation Argument
+
+This section presents the central idea of the simulation argument. The author asks a simple question:
+
+> **If future human civilizations become advanced enough to create many detailed simulations of their ancestors, why should we assume that we are living in the original civilization rather than inside one of those simulations?**
+
+To explore this, the paper defines three important ideas:
+
+* **Pf**: The fraction of civilizations that survive long enough to become extremely advanced ("posthuman").
+* **N**: The average number of ancestor simulations each posthuman civilization creates.
+* **H**: The average number of people who lived before a civilization reached the posthuman stage.
+
+The paper also introduces **fI**, the fraction of posthuman civilizations that actually choose to run ancestor simulations.
+
+The mathematical formulas combine these ideas to estimate **fsim**, the fraction of all observers with human-like experiences who are living inside simulations instead of the original reality.
+
+The key point is that if even a reasonable number of civilizations survive (**Pf**) and even some of them choose to run huge numbers of ancestor simulations (**fI** and **N**), then simulated people would vastly outnumber original people. In that case, a randomly selected person would most likely be simulated rather than original.
+
+### A Simple Example
+
+Imagine one real village with **100 people**.
+
+Many years later, the village becomes incredibly advanced. It creates **10,000 virtual copies** of the village, each containing the same 100 people.
+
+Now there are:
+
+* **100 real people**
+* **1,000,000 simulated people**
+
+If you were randomly picked from everyone who believes they are living in that village, the odds strongly favor you being one of the simulated people because there are far more simulated people than original ones.
+
+The simulation argument applies this same logic to humanity on a much larger scale.
+
+### The Three Possible Conclusions
+
+Based on the mathematics, the author argues that at least **one** of these statements must be true:
+
+1. **Almost no civilizations survive long enough to become posthuman.**
+2. **Posthuman civilizations almost never choose to run ancestor simulations.**
+3. **Almost everyone with experiences like ours is living inside a simulation.**
+
+The paper does **not** claim that the third statement is definitely true. Instead, it argues that these three possibilities cover the logical outcomes of the assumptions.
+
+### An Interesting Insight
+
+One striking aspect of this passage is that it is **not primarily about computer technology**—it is about **probability**. The argument never tries to prove that we are in a simulation. Instead, it asks us to think about how we should reason when one group could vastly outnumber another.
+
+Today, humans use similar reasoning in everyday life. Whether estimating the likelihood of an event, interpreting survey results, or judging risks, we often rely on probabilities rather than certainty. The simulation argument is an unusual example of applying that same kind of statistical thinking to one of the biggest questions imaginable: **What kind of reality are we most likely to be experiencing?**
+
+## Comparison
+
+Which prompt performed better? 
+Out of the two, the second prompt performed better
+
+Why?
+
+The structure was better for a summary, and it appeared closer to what a summary should be and less like an AI-generated response. Adding a word limit ensured the response was precise and to the point. For summaries, a personal insight ensures a fresh perspective, and its application to clear life, grounding the summary.  
+
+## Lessons Learned
+
+- Lesson 1: Adding word limits ensures the explanation is simple and precise 
+
+- Lesson 2: Explain the intent of the query to have better results, like asking to add a personal insight
+
+- Lesson 3: Always equip the user query with tone and formatting instructions for desirable results. 
+
+## Reflection
+
+What surprised me?
+Even if you ask for a summary, the model does not assume it should be brief and have a paragraph-like structure that works well together; you have to define it. 
+
+What would I test next?
+
+How could this evaluation be improved?
