@@ -18,9 +18,9 @@ This project investigates how different prompts influence summary quality.
 
 ## Model Used
 
-Model: Chatgpt
+Model: GPT-5.5 (ChatGPT)
 
-Date:7/13/2026
+Date:13th July 2026
 
 ---
 
@@ -417,13 +417,13 @@ The important point is that this is **not presented as proof** that we live in a
 
 ### Evaluation
 
-Accuracy: The explanation is scientifically accurate. There is some confusion with notation, which varies in different prints, but the model uses one that is different from the passage provided for it: Pf vs Fp 
+Accuracy: Medium; The explanation is scientifically accurate. There is some confusion with notation, which varies in different prints, but the model uses one that is different from the passage provided for it: Pf vs Fp 
 
-Completeness: The explanation is complete with an example
+Completeness: High; The explanation is complete with an example
 
-Clarity: The explanation was clear and easy to understand, though a bit lengthy. 
+Clarity: Medium; The explanation was clear and easy to understand, though a bit lengthy and disconnected
 
-Structure: The explanation is choppy; several sections don't flow together. 
+Structure: Medium; The explanation is choppy; several sections don't flow together. 
 
 Weaknesses: The explanation is a bit long, and there's confusion about the variable (pf ot Fp), though it is used correctly. The structure lacks clarity as it feels like sections of disconnected text rather than a cohesive summary. 
 
@@ -527,14 +527,28 @@ One striking aspect of this passage is that it is **not primarily about computer
 
 Today, humans use similar reasoning in everyday life. Whether estimating the likelihood of an event, interpreting survey results, or judging risks, we often rely on probabilities rather than certainty. The simulation argument is an unusual example of applying that same kind of statistical thinking to one of the biggest questions imaginable: **What kind of reality are we most likely to be experiencing?**
 
+## Prompt Improvements 
+
+Specified the target audience (non-science readers)
+Added a maximum word count
+Requested factual accuracy with no invented information
+Requested a simple example
+Requested an interesting insight
+Specified tone (friendly and approachable)
+
 ## Comparison
 
 Which prompt performed better? 
 Out of the two, the second prompt performed better
 
 Why?
-
 The structure was better for a summary, and it appeared closer to what a summary should be and less like an AI-generated response. Adding a word limit ensured the response was precise and to the point. For summaries, a personal insight ensures a fresh perspective, and its application to clear life, grounding the summary.  
+
+Prompt Change	Effect
+Added audience ("non-science background": ):	Simpler language
+Added word limit:	Reduced verbosity
+Requested no invented information:	Improved faithfulness
+Requested interesting insight: 	Produced more engaging conclusion
 
 ## Lessons Learned
 
